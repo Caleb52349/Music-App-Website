@@ -1,0 +1,227 @@
+/*
+Navbar- #0D0F20
+main -#337A95
+main 2 - #7DB2C5
+background - #171A2A
+logo text- #FFD500
+
+Fonts-----
+Circular Std Medium Regular font-size 21
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+span {
+    color: #FFD500;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #0D0F20;
+    min-height: 7vh;
+}
+
+.nav-links a {
+    color: rgb(256, 256, 256);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 5px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background-color: rgb(256, 256, 256);
+    transition: all 0.25s ease;
+}
+
+.main-container {
+    height: 519px;
+    background: #337A95;
+}
+
+.main-content {
+    position: relative;
+    top: 25%;
+}
+
+.main-content .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20;
+}
+
+.main-content h1,
+h2 {
+    text-align: center;
+}
+
+.main-content .sub-title {
+    margin-top: 50px;
+}
+
+.main-content .btn-cta a {
+    display: block;
+    background: white;
+    border: 1px thin white;
+    height: auto;
+    width: 205px;
+    border-radius: 25px;
+    margin: 140px auto;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.main-container-2 {
+    background: #7DB2C5;
+    height: 519px;
+}
+
+.sub-container {
+    background: #171A2A;
+    display: flex;
+    justify-content: center;
+}
+
+.download-content1,
+.download-content2 {
+    margin: 120px;
+}
+
+.download-content1 img,
+.download-content2 img {
+    margin-top: 50px;
+    height: 270px;
+}
+
+.download-content1 a,
+.download-content2 a {
+    display: block;
+    background: white;
+    border: 1px thin white;
+    height: auto;
+    width: 205px;
+    border-radius: 25px;
+    margin: 80px auto;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        height: 92vh;
+        top: 6vh;
+        background-color: #171A2A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        z-index: 10;
+        transform: translateX(100%);
+    }
+    .burger {
+        display: block;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .sub-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .download-content1,
+    .download-content2 {
+        margin-top: 0px;
+    }
+    .download-content1 {
+        margin-top: 80px;
+    }
+    .download-content1 img,
+    .download-content2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 262px;
+        height: 265px;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+
+/*Toggle Animation*/
+
+.toggle .line1 {
+    transform: rotate(-45deg)translate(-4px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg)translate(-4px, -6px);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translate(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.noScroll {
+    overflow-y: hidden;
+}

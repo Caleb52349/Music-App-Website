@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132.333" height="45.131" viewBox="0 0 132.333 45.131">
+  <g id="Group_2181" data-name="Group 2181" transform="translate(-191.667 -18.687)">
+    <g id="Group_2178" data-name="Group 2178" transform="translate(191.667 18.687)">
+      <g id="Rectangle_1340" data-name="Rectangle 1340" transform="matrix(0.017, 1, -1, 0.017, 9.595, 0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="34.001" height="9.597" rx="4.798" stroke="none"/>
+        <rect x="0.5" y="0.5" width="33.001" height="8.597" rx="4.298" fill="none"/>
+      </g>
+      <g id="Rectangle_1341" data-name="Rectangle 1341" transform="matrix(0.017, 1, -1, 0.017, 35.919, 0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="34.001" height="9.597" rx="4.798" stroke="none"/>
+        <rect x="0.5" y="0.5" width="33.001" height="8.597" rx="4.298" fill="none"/>
+      </g>
+      <g id="Rectangle_1342" data-name="Rectangle 1342" transform="matrix(0.017, 1, -1, 0.017, 22.757, 10.968)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="34.001" height="9.597" rx="4.798" stroke="none"/>
+        <rect x="0.5" y="0.5" width="33.001" height="8.597" rx="4.298" fill="none"/>
+      </g>
+    </g>
+    <text id="iMUSIC" transform="translate(239 48.182)" fill="#ffd500" font-size="26" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">iMUSIC</tspan></text>
+  </g>
+</svg>
